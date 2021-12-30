@@ -118,6 +118,6 @@ Thumbs.db
 # --------
 *.dll
 *.exe
-
+build-Qt*
 .vscode
-
+build-Game-tut
