@@ -1,4 +1,0 @@
-C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/CMakeFiles/Game_tut.dir
-C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/CMakeFiles/edit_cache.dir
-C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/CMakeFiles/rebuild_cache.dir
-C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/CMakeFiles/Game_tut_autogen.dir
