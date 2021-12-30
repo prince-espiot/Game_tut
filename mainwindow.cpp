@@ -11,6 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
   player = new MyRect();
   scene->addItem(player);
   ui->graphicsView->setScene(scene);
+  scene->setBackgroundBrush(QBrush(QImage(":/images/Resources/backgroundresized.png")));
   ui->graphicsView->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
   ui->graphicsView->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
   ui->graphicsView->setFixedSize(600,800);
@@ -43,7 +44,7 @@ MainWindow::~MainWindow()
 void MainWindow::playerPos()
 {
 
-  player->setPos(ui->graphicsView->width()/2,ui->graphicsView->height()- player->rect().height());
+  player->setPos(ui->graphicsView->width()/2,ui->graphicsView->height()- player->boundingRect().height());
 }
 
 void MainWindow::spawnEnemy()

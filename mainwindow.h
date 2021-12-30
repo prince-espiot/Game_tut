@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QGraphicsScene>
 #include <QSoundEffect>
+#include <QBrush>
 #include "myrect.h"
 #include "score.h"
 #include "health.h"

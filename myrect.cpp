@@ -3,18 +3,20 @@
 #include "enemy.h"
 #include <QGraphicsScene>
 
-MyRect::MyRect(QObject *parent): QObject(parent)
+MyRect::MyRect(QGraphicsItem *parent): QObject(),QGraphicsPixmapItem(parent)
 {
   bulletsound = new QSoundEffect(this);
   bulletsound->setSource(QUrl("qrc:/sounds/gun-gunshot-01.wav"));
   //bulletsound->setLoopCount(QSoundEffect::Infinite);
  // bulletsound->setVolume(0.15f);
- 
+  setPixmap(QPixmap(":/images/Resources/playerresize.png"));
+  setTransformOriginPoint(50,50);
+  setRotation(270);
   setFlag(ItemIsFocusable);
   setFocus();
 }
 
-QRectF MyRect::boundingRect() const
+/*QRectF MyRect::boundingRect() const
 {
    return QRectF (0,0,100,100);
 }
@@ -30,7 +32,7 @@ void MyRect::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QW
   Q_UNUSED(option);
   Q_UNUSED(widget);
 
-}
+}*/
 
 void MyRect::keyPressEvent(QKeyEvent *event)
 {

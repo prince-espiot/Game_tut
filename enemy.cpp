@@ -7,14 +7,16 @@
 
 extern MainWindow *w;  //and extern on the mainwindow that allow dreasement of the health
 
-Enemy::Enemy()
+
+Enemy::Enemy(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent)
 {
   //Set random position
   int random_num = rand()%500;
   setPos(random_num,0);
 
   //drew rect
-  setRect(0,0,100,100);
+  //setRect(0,0,100,100);
+  setPixmap(QPixmap(":/images/Resources/jetenemy.png"));
 
   //connect
  timer = new QTimer();
@@ -27,7 +29,7 @@ void Enemy::move()
 {
   //move bullet DOWN
   setPos(x(),y()+5);
-  if(pos().y() + rect().height() > 900){
+  if(pos().y() > 900){
       w->health->decreaseScore();
       scene()->removeItem(this);
       delete this;

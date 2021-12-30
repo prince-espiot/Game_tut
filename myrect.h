@@ -2,20 +2,21 @@
 #define MYRECT_H
 
 #include <QObject>
-#include <QGraphicsRectItem>
+#include <QGraphicsItem>
+#include <QGraphicsPixmapItem>
 #include <QDebug>
 #include <QPainter>
 #include <QKeyEvent>
 #include <QMediaPlayer>
 #include <QSoundEffect>
-class MyRect:public QObject,public QGraphicsRectItem
+class MyRect:public QObject,public QGraphicsPixmapItem
 {
   Q_OBJECT
 public:
- explicit MyRect(QObject *parent = nullptr);
+  MyRect(QGraphicsItem *parent = nullptr);
 
-  QRectF  boundingRect() const;
-  void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
+ // QRectF  boundingRect() const;
+  //void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
 
 protected:
   void keyPressEvent(QKeyEvent *event);

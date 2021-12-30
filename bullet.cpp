@@ -8,10 +8,12 @@
 extern MainWindow *w;
 
 
-Bullet::Bullet()
+Bullet::Bullet(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent)
 {
-  //drew rect
-  setRect(0,0,10,30);
+  //drew image
+  //setRect(0,0,10,30);
+  setPixmap(QPixmap(":/images/Resources/resizefirebullet.png"));
+
 
   //connect
  timer = new QTimer();
@@ -36,7 +38,7 @@ void Bullet::move()
     }
   //move bullet up
   setPos(x(),y()-10);
-  if(pos().y() + rect().height() < 0){
+  if(pos().y() < 0){
       scene()->removeItem(this);
       delete this;
       qDebug()<< "bullet delete";
