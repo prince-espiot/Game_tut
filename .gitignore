@@ -82,6 +82,7 @@ Thumbs.db
 /.qmake.cache
 /.qmake.stash
 *.make
+*.dir
 
 # qtcreator generated files
 *.pro.user*
@@ -120,4 +121,4 @@ Thumbs.db
 *.exe
 build-Qt*
 .vscode
-build-Game-tut
+build-Game_tut
