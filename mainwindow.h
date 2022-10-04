@@ -8,8 +8,11 @@
 #include "myrect.h"
 #include "score.h"
 #include "health.h"
+#include "countdown.h"
 #include <QTimer>
 #include <QList>
+
+#define DEBUG
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -26,6 +29,7 @@ public:
   void spawnEnemy();
   Score *score;
   Health *health;
+  countdown *count;
 private slots:
   //void on_actionNew_triggered();
 

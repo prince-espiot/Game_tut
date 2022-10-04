@@ -275,7 +275,7 @@ CMakeFiles/Game_tut.dir/myrect.cpp.obj: \
  C:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
  C:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
  C:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
- C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsRectItem \
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsItem \
  C:/Qt/6.2.2/mingw_64/include/QtWidgets/qgraphicsitem.h \
  C:/Qt/6.2.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qtguiglobal.h \
@@ -311,6 +311,7 @@ CMakeFiles/Game_tut.dir/myrect.cpp.obj: \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qrgba64.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qimage.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qpixelformat.h \
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
  C:/Qt/6.2.2/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qdebug.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/QPainter \
@@ -360,4 +361,26 @@ CMakeFiles/Game_tut.dir/myrect.cpp.obj: \
  C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsTextItem \
  C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\enemy.h \
  C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsScene \
- C:/Qt/6.2.2/mingw_64/include/QtWidgets/qgraphicsscene.h
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/qgraphicsscene.h \
+ C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\mainwindow.h \
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/QMainWindow \
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/qmainwindow.h \
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/qwidget.h \
+ C:/Qt/6.2.2/mingw_64/include/QtGui/qpalette.h \
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/qsizepolicy.h \
+ C:/Qt/6.2.2/mingw_64/include/QtGui/qcursor.h \
+ C:/Qt/6.2.2/mingw_64/include/QtGui/qbitmap.h \
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.2.2/mingw_64/include/QtGui/qicon.h \
+ C:/Qt/6.2.2/mingw_64/include/QtGui/QBrush \
+ C:/Qt/6.2.2/mingw_64/include/QtGui/qbrush.h \
+ C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\health.h \
+ C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\countdown.h \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/QTime \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/qlocale.h \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/qtimer.h \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/QList

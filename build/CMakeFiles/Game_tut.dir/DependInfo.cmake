@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/Game_tut_autogen/mocs_compilation.cpp" "CMakeFiles/Game_tut.dir/Game_tut_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/Game_tut.dir/Game_tut_autogen/mocs_compilation.cpp.obj.d"
   "C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/bullet.cpp" "CMakeFiles/Game_tut.dir/bullet.cpp.obj" "gcc" "CMakeFiles/Game_tut.dir/bullet.cpp.obj.d"
+  "C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/countdown.cpp" "CMakeFiles/Game_tut.dir/countdown.cpp.obj" "gcc" "CMakeFiles/Game_tut.dir/countdown.cpp.obj.d"
   "C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/enemy.cpp" "CMakeFiles/Game_tut.dir/enemy.cpp.obj" "gcc" "CMakeFiles/Game_tut.dir/enemy.cpp.obj.d"
   "C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/health.cpp" "CMakeFiles/Game_tut.dir/health.cpp.obj" "gcc" "CMakeFiles/Game_tut.dir/health.cpp.obj.d"
   "C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/main.cpp" "CMakeFiles/Game_tut.dir/main.cpp.obj" "gcc" "CMakeFiles/Game_tut.dir/main.cpp.obj.d"

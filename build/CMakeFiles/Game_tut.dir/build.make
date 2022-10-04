@@ -71,6 +71,18 @@ include CMakeFiles/Game_tut.dir/flags.make
 qrc_resources.cpp: ../Shatta\ Wale-Kakai.mp3
 qrc_resources.cpp: ../gun-gunshot-01.wav
 qrc_resources.cpp: ../makai-symphony-dragon-slayer.mp3
+qrc_resources.cpp: ../Resources/joe-mcdaniel-KhhOAsE5M6Y-unsplash.jpg
+qrc_resources.cpp: ../Resources/pngfind.com-fighter-jet-png-220137.png
+qrc_resources.cpp: ../Resources/pngfind.com-ghana-flag-png-6624175.png
+qrc_resources.cpp: ../Resources/pngfind.com-gun-fire-png-34703.png
+qrc_resources.cpp: ../Resources/pngfind.com-missle-png-3099111.png
+qrc_resources.cpp: ../Resources/pngfind.com-nigeria-flag-png-5720916.png
+qrc_resources.cpp: ../Resources/580b585b2edbce24c47b2657.png
+qrc_resources.cpp: ../Resources/resizefirebullet.png
+qrc_resources.cpp: ../Resources/enemynigeria.png
+qrc_resources.cpp: ../Resources/jetenemy.png
+qrc_resources.cpp: ../Resources/playerresize.png
+qrc_resources.cpp: ../Resources/backgroundresized.png
 qrc_resources.cpp: resources.qrc.depends
 qrc_resources.cpp: C:/Qt/6.2.2/mingw_64/./bin/rcc.exe
 qrc_resources.cpp: ../resources.qrc
@@ -212,6 +224,21 @@ CMakeFiles/Game_tut.dir/health.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_tut.dir/health.cpp.s"
 	C:\Qt\Tools\mingw900_64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\health.cpp -o CMakeFiles\Game_tut.dir\health.cpp.s
 
+CMakeFiles/Game_tut.dir/countdown.cpp.obj: CMakeFiles/Game_tut.dir/flags.make
+CMakeFiles/Game_tut.dir/countdown.cpp.obj: CMakeFiles/Game_tut.dir/includes_CXX.rsp
+CMakeFiles/Game_tut.dir/countdown.cpp.obj: ../countdown.cpp
+CMakeFiles/Game_tut.dir/countdown.cpp.obj: CMakeFiles/Game_tut.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Game_tut.dir/countdown.cpp.obj"
+	C:\Qt\Tools\mingw900_64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game_tut.dir/countdown.cpp.obj -MF CMakeFiles\Game_tut.dir\countdown.cpp.obj.d -o CMakeFiles\Game_tut.dir\countdown.cpp.obj -c C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\countdown.cpp
+
+CMakeFiles/Game_tut.dir/countdown.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_tut.dir/countdown.cpp.i"
+	C:\Qt\Tools\mingw900_64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\countdown.cpp > CMakeFiles\Game_tut.dir\countdown.cpp.i
+
+CMakeFiles/Game_tut.dir/countdown.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_tut.dir/countdown.cpp.s"
+	C:\Qt\Tools\mingw900_64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\countdown.cpp -o CMakeFiles\Game_tut.dir\countdown.cpp.s
+
 # Object files for target Game_tut
 Game_tut_OBJECTS = \
 "CMakeFiles/Game_tut.dir/Game_tut_autogen/mocs_compilation.cpp.obj" \
@@ -222,7 +249,8 @@ Game_tut_OBJECTS = \
 "CMakeFiles/Game_tut.dir/bullet.cpp.obj" \
 "CMakeFiles/Game_tut.dir/enemy.cpp.obj" \
 "CMakeFiles/Game_tut.dir/score.cpp.obj" \
-"CMakeFiles/Game_tut.dir/health.cpp.obj"
+"CMakeFiles/Game_tut.dir/health.cpp.obj" \
+"CMakeFiles/Game_tut.dir/countdown.cpp.obj"
 
 # External object files for target Game_tut
 Game_tut_EXTERNAL_OBJECTS =
@@ -236,6 +264,7 @@ Game_tut.exe: CMakeFiles/Game_tut.dir/bullet.cpp.obj
 Game_tut.exe: CMakeFiles/Game_tut.dir/enemy.cpp.obj
 Game_tut.exe: CMakeFiles/Game_tut.dir/score.cpp.obj
 Game_tut.exe: CMakeFiles/Game_tut.dir/health.cpp.obj
+Game_tut.exe: CMakeFiles/Game_tut.dir/countdown.cpp.obj
 Game_tut.exe: CMakeFiles/Game_tut.dir/build.make
 Game_tut.exe: C:/Qt/6.2.2/mingw_64/lib/libQt6Widgets.a
 Game_tut.exe: C:/Qt/6.2.2/mingw_64/lib/libQt6Multimedia.a
@@ -245,7 +274,7 @@ Game_tut.exe: C:/Qt/6.2.2/mingw_64/lib/libQt6Core.a
 Game_tut.exe: CMakeFiles/Game_tut.dir/linklibs.rsp
 Game_tut.exe: CMakeFiles/Game_tut.dir/objects1.rsp
 Game_tut.exe: CMakeFiles/Game_tut.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Game_tut.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Game_tut.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Game_tut.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

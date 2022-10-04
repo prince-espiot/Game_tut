@@ -3,8 +3,10 @@
 
 #include <QGraphicsPixmapItem>
 #include <QGraphicsItem>
-
 #include <QObject>
+
+#define DEBUG 
+
 
 class Enemy:public QObject,public QGraphicsPixmapItem
 {

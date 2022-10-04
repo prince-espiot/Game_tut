@@ -96,7 +96,8 @@ C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/Game_tut_autogen
   C:/Qt/6.2.2/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.2.2/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.2.2/mingw_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsRectItem \
+  C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsItem \
+  C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
   C:/Qt/6.2.2/mingw_64/include/QtWidgets/qgraphicsitem.h \
   C:/Qt/6.2.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.2.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \

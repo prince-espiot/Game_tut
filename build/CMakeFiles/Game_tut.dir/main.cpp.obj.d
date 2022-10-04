@@ -320,10 +320,12 @@ CMakeFiles/Game_tut.dir/main.cpp.obj: \
  C:/Qt/6.2.2/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
  C:/Qt/6.2.2/mingw_64/include/QtMultimedia/qaudio.h \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.2.2/mingw_64/include/QtGui/QBrush \
+ C:/Qt/6.2.2/mingw_64/include/QtGui/qbrush.h \
  C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\myrect.h \
  C:/Qt/6.2.2/mingw_64/include/QtCore/QObject \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qobject.h \
- C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsRectItem \
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsItem \
  C:/Qt/6.2.2/mingw_64/include/QtWidgets/qgraphicsitem.h \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qmap.h \
@@ -335,6 +337,7 @@ CMakeFiles/Game_tut.dir/main.cpp.obj: \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qset.h \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qcontiguouscache.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qpainterpath.h \
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
  C:/Qt/6.2.2/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qdebug.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/QPainter \
@@ -370,6 +373,11 @@ CMakeFiles/Game_tut.dir/main.cpp.obj: \
  C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\score.h \
  C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsTextItem \
  C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\health.h \
+ C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\countdown.h \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/QTime \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.2.2/mingw_64/include/QtCore/QTimer \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qtimer.h \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qbasictimer.h \
@@ -381,5 +389,4 @@ CMakeFiles/Game_tut.dir/main.cpp.obj: \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qguiapplication.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qinputmethod.h \
- C:/Qt/6.2.2/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qguiapplication_platform.h

@@ -10,7 +10,6 @@ MainWindow::MainWindow(QWidget *parent)
   scene = new QGraphicsScene(this);
   player = new MyRect();
   scene->addItem(player);
-  ui->graphicsView->setScene(scene);
   scene->setBackgroundBrush(QBrush(QImage(":/images/Resources/backgroundresized.png")));
   ui->graphicsView->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
   ui->graphicsView->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
@@ -24,7 +23,11 @@ MainWindow::MainWindow(QWidget *parent)
 
   // creat health
   health = new Health();
-  scene->addItem(health);
+  scene->addItem(health);  
+
+   // Create countDown
+  count = new countdown();
+  scene->addItem(count);
   spawnEnemy();
 
   //play background music

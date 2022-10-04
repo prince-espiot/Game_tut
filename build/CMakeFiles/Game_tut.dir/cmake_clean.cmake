@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Game_tut.dir/Game_tut_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/Game_tut.dir/bullet.cpp.obj"
   "CMakeFiles/Game_tut.dir/bullet.cpp.obj.d"
+  "CMakeFiles/Game_tut.dir/countdown.cpp.obj"
+  "CMakeFiles/Game_tut.dir/countdown.cpp.obj.d"
   "CMakeFiles/Game_tut.dir/enemy.cpp.obj"
   "CMakeFiles/Game_tut.dir/enemy.cpp.obj.d"
   "CMakeFiles/Game_tut.dir/health.cpp.obj"

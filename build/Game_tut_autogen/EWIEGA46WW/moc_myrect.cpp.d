@@ -134,7 +134,8 @@ C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/Game_tut_autogen
   C:/Qt/6.2.2/mingw_64/include/QtMultimedia/qsoundeffect.h \
   C:/Qt/6.2.2/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
   C:/Qt/6.2.2/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
-  C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsRectItem \
+  C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsItem \
+  C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
   C:/Qt/6.2.2/mingw_64/include/QtWidgets/qgraphicsitem.h \
   C:/Qt/6.2.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.2.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \

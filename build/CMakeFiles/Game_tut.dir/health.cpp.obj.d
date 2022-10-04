@@ -309,5 +309,6 @@ CMakeFiles/Game_tut.dir/health.cpp.obj: \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qrgba64.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qimage.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qpixelformat.h \
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsItem \
  C:/Qt/6.2.2/mingw_64/include/QtGui/QFont \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qfont.h

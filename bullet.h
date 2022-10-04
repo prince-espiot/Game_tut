@@ -6,7 +6,7 @@
 #include <QObject>
 
 #include "score.h"
-
+//#define DEBUG
 
 class Bullet:public QObject, public QGraphicsPixmapItem
 {

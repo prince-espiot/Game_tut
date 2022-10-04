@@ -6,6 +6,7 @@ C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/Game_tut_autogen
   C:/Qt/6.2.2/mingw_64/include/QtCore/QRect \
   C:/Qt/6.2.2/mingw_64/include/QtCore/QSize \
   C:/Qt/6.2.2/mingw_64/include/QtCore/QSizeF \
+  C:/Qt/6.2.2/mingw_64/include/QtCore/QTime \
   C:/Qt/6.2.2/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qanystringview.h \
@@ -21,6 +22,7 @@ C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/Game_tut_autogen
   C:/Qt/6.2.2/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qbytearraylist.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qbytearrayview.h \
+  C:/Qt/6.2.2/mingw_64/include/QtCore/qcalendar.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qchar.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qcompare.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qcompilerdetection.h \
@@ -31,6 +33,7 @@ C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/Game_tut_autogen
   C:/Qt/6.2.2/mingw_64/include/QtCore/qcontiguouscache.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qcoreevent.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qdatastream.h \
+  C:/Qt/6.2.2/mingw_64/include/QtCore/qdatetime.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qgenericatomic.h \
@@ -44,6 +47,7 @@ C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/Game_tut_autogen
   C:/Qt/6.2.2/mingw_64/include/QtCore/qiterator.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qline.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qlist.h \
+  C:/Qt/6.2.2/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qlogging.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qloggingcategory.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qmap.h \
@@ -96,6 +100,7 @@ C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/Game_tut_autogen
   C:/Qt/6.2.2/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.2.2/mingw_64/include/QtCore/qversiontagging.h \
+  C:/Qt/6.2.2/mingw_64/include/QtGui/QBrush \
   C:/Qt/6.2.2/mingw_64/include/QtGui/QKeyEvent \
   C:/Qt/6.2.2/mingw_64/include/QtGui/QPainter \
   C:/Qt/6.2.2/mingw_64/include/QtGui/QTransform \
@@ -141,7 +146,8 @@ C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/Game_tut_autogen
   C:/Qt/6.2.2/mingw_64/include/QtMultimedia/qsoundeffect.h \
   C:/Qt/6.2.2/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
   C:/Qt/6.2.2/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
-  C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsRectItem \
+  C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsItem \
+  C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
   C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsScene \
   C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsTextItem \
   C:/Qt/6.2.2/mingw_64/include/QtWidgets/QMainWindow \
@@ -366,6 +372,7 @@ C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/build/Game_tut_autogen
   C:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/countdown.h \
   C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/health.h \
   C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/myrect.h \
   C:/Users/admin/OneDrive/Documents/MyC++/pratices/Game_tut/score.h

@@ -9,20 +9,21 @@
 #include <QKeyEvent>
 #include <QMediaPlayer>
 #include <QSoundEffect>
+
+//#define DEBUG
+
 class MyRect:public QObject,public QGraphicsPixmapItem
 {
   Q_OBJECT
 public:
   MyRect(QGraphicsItem *parent = nullptr);
 
- // QRectF  boundingRect() const;
-  //void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
-
 protected:
   void keyPressEvent(QKeyEvent *event);
 
 public slots:
   void spawn();
+  bool healthStatus();
 
 private:
   QSoundEffect *bulletsound;

@@ -1,7 +1,7 @@
 CMakeFiles/Game_tut.dir/bullet.cpp.obj: \
  C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\bullet.cpp \
  C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\bullet.h \
- C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsRectItem \
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
  C:/Qt/6.2.2/mingw_64/include/QtWidgets/qgraphicsitem.h \
  C:/Qt/6.2.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qtguiglobal.h \
@@ -309,6 +309,7 @@ CMakeFiles/Game_tut.dir/bullet.cpp.obj: \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qrgba64.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qimage.h \
  C:/Qt/6.2.2/mingw_64/include/QtGui/qpixelformat.h \
+ C:/Qt/6.2.2/mingw_64/include/QtWidgets/QGraphicsItem \
  C:/Qt/6.2.2/mingw_64/include/QtCore/QObject \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qobject.h \
  C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\score.h \
@@ -343,6 +344,8 @@ CMakeFiles/Game_tut.dir/bullet.cpp.obj: \
  C:/Qt/6.2.2/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
  C:/Qt/6.2.2/mingw_64/include/QtMultimedia/qaudio.h \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.2.2/mingw_64/include/QtGui/QBrush \
+ C:/Qt/6.2.2/mingw_64/include/QtGui/qbrush.h \
  C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\myrect.h \
  C:/Qt/6.2.2/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qdebug.h \
@@ -375,4 +378,9 @@ CMakeFiles/Game_tut.dir/bullet.cpp.obj: \
  C:/Qt/6.2.2/mingw_64/include/QtMultimedia/qmediaplayer.h \
  C:/Qt/6.2.2/mingw_64/include/QtMultimedia/qmediaenumdebug.h \
  C:/Qt/6.2.2/mingw_64/include/QtCore/qmetaobject.h \
- C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\health.h
+ C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\health.h \
+ C:\Users\admin\OneDrive\Documents\MyC++\pratices\Game_tut\countdown.h \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/QTime \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.2.2/mingw_64/include/QtCore/qlocale.h

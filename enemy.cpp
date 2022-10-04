@@ -29,10 +29,12 @@ void Enemy::move()
 {
   //move bullet DOWN
   setPos(x(),y()+5);
-  if(pos().y() > 900){
+  if(pos().y() > 850){
       w->health->decreaseScore();
       scene()->removeItem(this);
       delete this;
+      #ifdef DEBUG
       qDebug()<< "enemey delete";
+      #endif
     }
 }

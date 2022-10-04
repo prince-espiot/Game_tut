@@ -2,6 +2,9 @@
 #include "bullet.h"
 #include "enemy.h"
 #include <QGraphicsScene>
+#include "mainwindow.h"
+
+extern MainWindow *w;
 
 MyRect::MyRect(QGraphicsItem *parent): QObject(),QGraphicsPixmapItem(parent)
 {
@@ -16,23 +19,6 @@ MyRect::MyRect(QGraphicsItem *parent): QObject(),QGraphicsPixmapItem(parent)
   setFocus();
 }
 
-/*QRectF MyRect::boundingRect() const
-{
-   return QRectF (0,0,100,100);
-}
-
-void MyRect::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
-{
-
-  QRectF rec = boundingRect();
-  QBrush brush (Qt::transparent);
-  painter->fillRect(rec,brush);
-  painter->drawRect(rec);
-
-  Q_UNUSED(option);
-  Q_UNUSED(widget);
-
-}*/
 
 void MyRect::keyPressEvent(QKeyEvent *event)
 {
@@ -64,11 +50,25 @@ void MyRect::keyPressEvent(QKeyEvent *event)
       bulletsound->play();} */
 
     }
+    #ifdef DEBUG
   qDebug()<< "Key preesseed";
+    #endif
 }
+
 
 void MyRect::spawn()
 {
     Enemy *enemy = new Enemy();
     scene()->addItem(enemy);
+}
+
+bool MyRect::healthStatus()
+{
+  if (w->health->getScore()==0)
+  //timer->stop();
+  #ifdef DEBUG
+  qDebug()<< "Healthss is below zero";
+  #endif
+  return true;
+
 }

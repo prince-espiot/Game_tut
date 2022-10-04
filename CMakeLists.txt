@@ -34,6 +34,8 @@ set(PROJECT_SOURCES
         score.cpp
         health.h
         health.cpp
+        countdown.h
+        countdown.cpp
 
 )
 set(QT_USE_QTMULTIMEDIA TRUE)
