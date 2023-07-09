@@ -8,8 +8,10 @@
 #include <QPushButton>
 #include <QVBoxLayout>
 #include <QApplication>
-#include "mainwindow.h"
-
+#include <QSqlQuery>
+#include <QSqlError>
+#include <QSqlTableModel>
+#include <QTableView>
 
 
 class IntroWindow : public QMainWindow

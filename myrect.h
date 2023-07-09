@@ -9,6 +9,9 @@
 #include <QKeyEvent>
 #include <QMediaPlayer>
 #include <QSoundEffect>
+
+
+
 class MyRect:public QObject,public QGraphicsPixmapItem
 {
   Q_OBJECT
@@ -26,6 +29,7 @@ public slots:
 
 private:
   QSoundEffect *bulletsound;
+
 };
 
 #endif // MYRECT_H

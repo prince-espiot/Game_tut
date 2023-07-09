@@ -6,10 +6,9 @@
 #include <QGraphicsItem>
 #include <QGraphicsPixmapItem>
 
-//#include "mainwindow.h"
-#include "introWindow.h"
 
-extern MainWindow *w;
+
+extern MainWindow* w; // extern on the mainwindow that allows decrement of health
 
 Enemy::Enemy(QGraphicsItem* parent) : QObject(), QGraphicsPixmapItem(parent)
 {
@@ -43,7 +42,7 @@ void Enemy::move()
             w->health->decreaseHealth();
 
             // Remove the enemy from the scene
-            //scene()->removeItem(this);
+            scene()->removeItem(this);
             delete this;
 
             return;

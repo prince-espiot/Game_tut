@@ -6,6 +6,7 @@
 
 
 MyRect::MyRect(QGraphicsItem *parent): QObject(),QGraphicsPixmapItem(parent)
+
 {
   bulletsound = new QSoundEffect(this);
   bulletsound->setSource(QUrl("qrc:/sounds/gun-gunshot-01.wav"));

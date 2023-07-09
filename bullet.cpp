@@ -3,8 +3,7 @@
 #include <QGraphicsScene>
 #include <QList>
 #include "enemy.h"
-//#include "mainwindow.h"
-#include "introWindow.h"
+
 
 extern MainWindow *w;
 

@@ -5,7 +5,8 @@
 #include <QGraphicsItem>
 #include <QObject>
 //#include "score.h"
-
+#include "introWindow.h"
+#include "mainwindow.h"
 
 class Bullet:public QObject, public QGraphicsPixmapItem
 {
