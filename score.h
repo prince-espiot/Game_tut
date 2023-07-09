@@ -12,6 +12,7 @@ public:
   int getScore();
 private:
   int score;
+
 };
 
 #endif // SCORE_H
