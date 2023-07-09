@@ -3,7 +3,8 @@
 #include <QGraphicsScene>
 #include <QList>
 #include "enemy.h"
-#include "mainwindow.h"
+//#include "mainwindow.h"
+#include "introWindow.h"
 
 extern MainWindow *w;
 
@@ -14,12 +15,13 @@ Bullet::Bullet(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent)
   //setRect(0,0,10,30);
   setPixmap(QPixmap(":/images/Resources/resizefirebullet.png"));
 
+  //mainWindow = new MainWindow;
 
   //connect
- timer = new QTimer();
- connect(timer,SIGNAL(timeout()),this,SLOT(move()));
+ timer = new QTimer(this);
+ connect(timer,&QTimer::timeout,this,QOverload<>::of(&Bullet::move));
 
- timer->start(50);
+ timer->start(25); // change this when switching up the levels
 }
 
 void Bullet::move()
@@ -37,7 +39,7 @@ void Bullet::move()
         }
     }
   //move bullet up
-  setPos(x(),y()-10);
+  setPos(x(),y()-30);
   if(pos().y() < 0){
       scene()->removeItem(this);
       delete this;

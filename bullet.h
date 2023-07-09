@@ -4,8 +4,7 @@
 #include <QGraphicsPixmapItem>
 #include <QGraphicsItem>
 #include <QObject>
-
-#include "score.h"
+//#include "score.h"
 
 
 class Bullet:public QObject, public QGraphicsPixmapItem
@@ -19,6 +18,7 @@ public slots:
 
 private:
   QTimer *timer;
+
 
 };
 

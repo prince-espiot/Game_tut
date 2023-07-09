@@ -3,6 +3,7 @@
         <file>Shatta Wale-Kakai.mp3</file>
         <file>gun-gunshot-01.wav</file>
         <file>makai-symphony-dragon-slayer.mp3</file>
+        <file>DZ.mp3</file>
     </qresource>
     <qresource prefix="/images">
         <file>Resources/joe-mcdaniel-KhhOAsE5M6Y-unsplash.jpg</file>
@@ -17,5 +18,8 @@
         <file>Resources/jetenemy.png</file>
         <file>Resources/playerresize.png</file>
         <file>Resources/backgroundresized.png</file>
+        <file>Resources/hearts.png</file>
+        <file>Resources/red_hearts.png</file>
+        <file>Resources/black_hearts.png</file>
     </qresource>
 </RCC>

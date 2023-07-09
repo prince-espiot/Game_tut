@@ -3,6 +3,8 @@
 #include "enemy.h"
 #include <QGraphicsScene>
 
+
+
 MyRect::MyRect(QGraphicsItem *parent): QObject(),QGraphicsPixmapItem(parent)
 {
   bulletsound = new QSoundEffect(this);
@@ -16,56 +18,46 @@ MyRect::MyRect(QGraphicsItem *parent): QObject(),QGraphicsPixmapItem(parent)
   setFocus();
 }
 
-/*QRectF MyRect::boundingRect() const
-{
-   return QRectF (0,0,100,100);
-}
 
-void MyRect::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
-{
-
-  QRectF rec = boundingRect();
-  QBrush brush (Qt::transparent);
-  painter->fillRect(rec,brush);
-  painter->drawRect(rec);
-
-  Q_UNUSED(option);
-  Q_UNUSED(widget);
-
-}*/
 
 void MyRect::keyPressEvent(QKeyEvent *event)
 {
-  if(event->key()==Qt::Key_Left){
-      if (pos().x() > 0){
-        setPos(x()-10,y());}
-    }
-  else if (event->key()==Qt::Key_Right){
-      if (pos().x()+boundingRect().width()+8 <scene()->width()){
-      setPos(x()+10,y());}
-    }
-
- else if (event->key()==Qt::Key_Space){
-      //creat a bullet
-
-      Bullet *bullet = new Bullet();
-      bullet->setPos(x()+45,y());
-      scene()->addItem(bullet);
-      //play bulletsound
-      if (bulletsound->isPlaying()){
-          bulletsound->stop();
+    if (event->key() == Qt::Key_Left) {
+        if (pos().x() > 0) {
+            setPos(x() - 15, y());
         }
-      bulletsound->play();
-
-      /*if (bulletsound->playbackState() == QMediaPlayer::PlayingState){
-          bulletsound->setPosition(0);
-        } //play sound in recall
-      else if(bulletsound->playbackState() == QMediaPlayer::StoppedState){
-      bulletsound->play();} */
-
     }
-  qDebug()<< "Key preesseed";
+    else if (event->key() == Qt::Key_Right) {
+        if (pos().x() + boundingRect().width() + 10 < scene()->width()) {
+            setPos(x() + 15, y());
+        }
+    }
+    else if (event->key() == Qt::Key_Up) {
+        if (pos().y() > 0) {
+            setPos(x(), y() - 15);
+        }
+    }
+    else if (event->key() == Qt::Key_Down) {
+        if (pos().y() + boundingRect().height() + 8 < scene()->height()) {
+            setPos(x(), y() + 15);
+        }
+    }
+    else if (event->key() == Qt::Key_Space) {
+        // Create a bullet
+        Bullet *bullet = new Bullet();
+        bullet->setPos(x() + 30, y());  // to the side of the jet
+        scene()->addItem(bullet);
+
+        // Play bulletsound
+        if (bulletsound->isPlaying()) {
+            bulletsound->stop();
+        }
+        bulletsound->play();
+    }
+
+    qDebug() << "Key pressed";
 }
+
 
 void MyRect::spawn()
 {

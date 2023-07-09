@@ -34,6 +34,10 @@ set(PROJECT_SOURCES
         score.cpp
         health.h
         health.cpp
+        DialogWindow.h
+        DialogWindow.cpp
+        introWindow.h
+        introWindow.cpp
 
 )
 set(QT_USE_QTMULTIMEDIA TRUE)
